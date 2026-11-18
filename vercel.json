@@ -1,0 +1,11 @@
+{
+  "installCommand": "echo Skipping install: site is prebuilt",
+  "buildCommand": "echo Using prebuilt static site",
+  "outputDirectory": "dist/public",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
